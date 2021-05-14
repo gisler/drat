@@ -1,0 +1,4 @@
+Package: whitebox
+Version: 1.4.0
+Suggests: knitr, rmarkdown, testthat
+License: MIT + file LICENSE
