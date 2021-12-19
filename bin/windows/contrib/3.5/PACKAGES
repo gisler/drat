@@ -1,13 +1,14 @@
 Package: RPhosFate
-Version: 0.9.0
+Version: 0.10.0
 Depends: R (>= 3.2.0)
-Imports: checkmate, graphics, hydroGOF, methods, raster, Rcpp, spatstat, stats, utils, yaml
+Imports: checkmate, graphics, hydroGOF, methods, raster, Rcpp, spatstat (<= 1.64-1), stats, utils, yaml
 LinkingTo: Rcpp, RcppArmadillo
-Suggests: whitebox
+Suggests: tinytest, whitebox
 License: file LICENSE
 Archs: x64
 
 Package: whitebox
-Version: 1.4.0
-Suggests: knitr, rmarkdown, testthat
+Version: 2.0.0
+Depends: R (>= 2.10)
+Suggests: knitr, rmarkdown, testthat, raster, rgdal
 License: MIT + file LICENSE
