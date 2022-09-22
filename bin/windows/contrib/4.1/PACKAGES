@@ -1,9 +1,0 @@
-Package: RPhosFate
-Version: 0.12.0
-Depends: R (>= 3.5.0)
-Imports: checkmate, graphics, hydroGOF, methods, raster, Rcpp, spatstat.geom,
-         stats, utils, yaml
-LinkingTo: Rcpp, RcppArmadillo
-Suggests: knitr, rmarkdown, tinytest, whitebox (>= 2.0.0)
-License: file LICENSE
-Archs: x64
